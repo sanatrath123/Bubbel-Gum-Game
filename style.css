@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(95, 159, 95);
+}
+#main{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+#tpannel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background: rgb(41, 139, 41);
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+h4{
+    font-size: 15px;
+    margin: 5px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: white;
+    gap: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+#bpannel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: calc(100%-100px);
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    height: 45px;
+    width: 45px;
+    background: rgb(17, 119, 17);
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+}
+.bubble:hover{
+    cursor: pointer;
+    background: rgb(16, 86, 16);
+    
+}
+
+.jsh1{
+    font-size: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
